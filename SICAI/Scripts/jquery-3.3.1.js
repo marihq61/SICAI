@@ -10362,3 +10362,8 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
+/*NAVBAR VERTICAL */
+$("#menu-toggle").click(function (e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("active");
+});
